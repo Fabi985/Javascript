@@ -1,6 +1,6 @@
 export function homeView() {
     return `
-        <h2>hello</h2>
-        <p>fuck</p>
+        <h2>Home Page</h2>
+        <p>This is the home page</p>
     `
 }
