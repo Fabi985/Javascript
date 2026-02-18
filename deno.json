@@ -1,7 +1,9 @@
 {
 
   "tasks": {
-    "serve" : "deno --watch --allow-env --allow-ffi --allow-net=0.0.0.0:8000 --allow-read=./assets,/home/fabi/.cache/deno/plug/ main.js"
+    "serve" : "deno --watch --allow-env --allow-ffi --allow-net=0.0.0.0:8000 --allow-read=./assets,/home/fabi/.cache/deno/plug/ main.js",
+    "db-create" : "deno --watch --allow-env --allow-ffi --allow-read=/home/fabi/.cache/deno/plug/ ./app/tasks/db-create.js"
+    
   },
 
   "imports": {

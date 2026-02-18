@@ -1,6 +1,6 @@
 export function itemsView({ items }) {
 
-    const listItems = items.map(item => `<li>${item}</li>`).join("\n");
+    const listItems = items.map(item => `<li>${item.label}</li>`).join("\n");
 
     return `
     <h2>A list of items</h2>
